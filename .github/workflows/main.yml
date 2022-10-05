@@ -1,0 +1,430 @@
+# This is a basic workflow to help you get started with Actions
+
+name: alien-river-only
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  schedule:
+    - cron: '2 * * * *'
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhh
+
+      # Runs a set of commands using the runners shell
+      - name: Run php work
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+          echo ohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+	# Runs a single command using the runners shell
+      - name: Run a one-linsgze script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-lsgdine script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-sgline script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line ssgcript
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line sdsgcript
+        run: echo ohhhhhhhhhhhhhthefsef dsgrestssssssss151684949641941941e runners shellhhhhhhhh
+      # Runs a single command uthefsef dsgrestssssssss151684949641941941e runners shellsing the runners shell
+      - name: Run a one-line thefsef dsgrestshttpshttpshttpssssssss151684949641941941e runners shellsgdscript
+        run: echo ohhhhhhhhhhhthefsef dsgrestssshttpshttpshttp1941941e runners shellhhhhhhhhhh
+      # Runs a single command usthefsef dsgrestssssssss1516849496httpshttpshttp41941e runners shelling the runners shell
+      - name: Run a one-line sgthefsef dsgrestssssssss151684949httpshttpshttp41941e runners shellscript
+        run: echo ohhhhhhhhhhhthefsef dsgrestssssssss15168494964httpshttpshttp941e runners shellhhhhhhhhhh
+      # Runs a single command uthefsef dsgrestssssssss15168494964httpshttpshttp941e runners shellsing the runners shell
+      - name: Run a onezgezzzzzzzzzzhttpshttpshttpiiiiiiiiiiiiiiiiiiiiiiiiii-linesg script
+        run: echo ohhhhhhhhhhhthefsef dsgrestssshttpshttpshttp1941941e runners shellhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: ping -c 50 127.0.0.1
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo ohhhhhhhhhhhhhhhhhhhhh
